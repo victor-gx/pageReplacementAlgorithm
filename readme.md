@@ -24,7 +24,7 @@
 
 ![image-20221229161213272](https://victor-gx.oss-cn-beijing.aliyuncs.com/img/2022/linux/202212291612331.png)
 
-*sql语句*
+**sql语句**
 ```sql
 create table test
 (
