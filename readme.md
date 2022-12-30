@@ -23,3 +23,36 @@
 ### 历史界面
 
 ![image-20221229161213272](https://victor-gx.oss-cn-beijing.aliyuncs.com/img/2022/linux/202212291612331.png)
+
+*sql语句*
+```sql
+create table test
+(
+    memory_n         int           null,
+    page_n           varchar(50)   null,
+    page_list        varchar(50)   null,
+    memory_t         varchar(50)   null,
+    quick_table_t    varchar(50)   null,
+    interrupt_t      varchar(50)   null,
+    is_check         varchar(20)   null,
+    fifo_total_t     varchar(50)   null,
+    fifo_ave_t       varchar(50)   null,
+    fifo_miss_page   varchar(50)   null,
+    fifo_interrupt_n varchar(50)   null,
+    fifo_text        varchar(1000) null,
+    lru_total_t      varchar(50)   null,
+    lru_ave_t        varchar(50)   null,
+    lru_miss_page    varchar(50)   null,
+    lru_interrupt_n  varchar(50)   null,
+    lru_text         varchar(1000) null,
+    lfu_total_t      varchar(50)   null,
+    lfu_ave_t        varchar(50)   null,
+    lfu_miss_page    varchar(50)   null,
+    lfu_interrupt_n  varchar(50)   null,
+    lfu_text         varchar(1000) null,
+    opt_total_t      varchar(50)   null,
+    opt_ave_t        varchar(50)   null,
+    opt_miss_page    varchar(50)   null,
+    opt_interrupt_n  varchar(50)   null,
+    opt_text         varchar(1000) null
+);
